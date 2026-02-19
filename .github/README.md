@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-support`](https://www.npmjs.com/package/@aws-sdk/client-support/v/3.920.0).
+[`@aws-sdk/client-support`](https://www.npmjs.com/package/@aws-sdk/client-support/v/3.921.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.920.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.921.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rTg6MSb1swB/U0gSv/L3zAQu7OSWBnEGHUMpLWKXK7p1TkQv1IEZ+OmlXkxwqrUp
+sha384-Utj4S99yjThvusg/RKf7MJNmwYaZpvwlbU0p+EWCS3bJP6nz1T0tRZo3yPfSwTXd
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-support": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.920.0/index.min.mjs"
+            "@aws-sdk/client-support": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.921.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.920.0/index.min.mjs": "sha384-rTg6MSb1swB/U0gSv/L3zAQu7OSWBnEGHUMpLWKXK7p1TkQv1IEZ+OmlXkxwqrUp"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.921.0/index.min.mjs": "sha384-Utj4S99yjThvusg/RKf7MJNmwYaZpvwlbU0p+EWCS3bJP6nz1T0tRZo3yPfSwTXd"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-support": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.920.0/index.min.mjs"
+                        "@aws-sdk/client-support": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.921.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.920.0/index.min.mjs": "sha384-rTg6MSb1swB/U0gSv/L3zAQu7OSWBnEGHUMpLWKXK7p1TkQv1IEZ+OmlXkxwqrUp"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-support@3.921.0/index.min.mjs": "sha384-Utj4S99yjThvusg/RKf7MJNmwYaZpvwlbU0p+EWCS3bJP6nz1T0tRZo3yPfSwTXd"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.920.0`)
+* Always pin to a specific version (`@3.921.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-support/blob/refs/tags/3.920.0/LICENSE
+https://github.com/cloud-sdk-builds/client-support/blob/refs/tags/3.921.0/LICENSE
 ```
 
 ---
